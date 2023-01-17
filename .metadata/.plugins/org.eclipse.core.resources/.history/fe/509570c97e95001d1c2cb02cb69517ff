@@ -1,0 +1,6 @@
+package cal;
+
+public class SimpleInterest {
+ public void testAdd();
+
+}

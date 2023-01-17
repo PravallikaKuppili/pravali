@@ -1,0 +1,17 @@
+package cal;
+import org.junit.jupiter.api.Assertions;
+import org.junit.jupiter.api.Test;
+
+class SimpleInterestTest {
+
+	@Test
+	float calculateInterest() {
+		SimpleInterest si = new SimpleInterest();
+		float expected = 44.0f;
+		float actual =si.calculateInterest(100,40,2);
+		Assertions.assertEquals(expected,actual);
+		return 1;
+		
+	}
+
+}

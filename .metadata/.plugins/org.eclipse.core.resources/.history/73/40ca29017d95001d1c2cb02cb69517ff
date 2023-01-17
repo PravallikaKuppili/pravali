@@ -1,0 +1,6 @@
+package cal;
+
+public class Calculate {
+ public void testAdd();
+
+}
